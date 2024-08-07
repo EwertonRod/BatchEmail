@@ -18,7 +18,7 @@ func Test_Create_Campaign(t *testing.T) {
 	}
 
 	id, err := service.Create(newCampaign)
-
+	//
 	assert.Nil(err)
 	assert.NotNil(id)
 }
